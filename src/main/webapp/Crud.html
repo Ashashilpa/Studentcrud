@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Enter Stdent Detailes</h1>
+
+<form action="insert" method="post">
+    
+      <table cellpadding="5px" cellspacing="5px">
+                <tr>
+                    <td>
+                        <label for="name">Name :</label>
+                    </td>
+                    <td>
+                        <input type="text" id="name" placeholder="Enter name" name="name">
+                    </td>
+                </tr>
+    
+               <tr>
+                    <td>
+                        <label for="num">Mobile no :</label>
+                    </td>
+                    <td>
+                    
+                        <input type="tel" id="num"  name="mobile" pattern="{0-9}[10]">
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td>
+                        <label for="mail">Email :</label>
+                    </td>
+                    <td>
+                        <input type="email" id="mail" name="email">
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td>
+                        <label for="g">Gender :</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="g" name="gender" value="male">Male
+                         <input type="radio" id="g" name="gender" value="female">Female
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td>
+                        <label for="date">DOB :</label>
+                    </td>
+                    <td>
+                        <input type="date" id="date" name="dob">
+                    </td>
+                </tr>
+                
+                
+                <tr>
+                    <td>
+                        <label for="address">Address :</label>
+                    </td>
+                    <td>
+                        <textarea name="address" id="address" cols="30" rows="5" placeholder="Enter Address"></textarea>
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td>
+                        <label for="skill">Languages Known :</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="skill" name="language" value="kannada">Kannada
+                         <input type="checkbox" id="skill" name="language" value="english">English
+                          <input type="checkbox" id="skill" name="language" value="hindi">Hindi
+                      
+                    </td>
+                </tr>
+                
+                 <tr>
+                    <td>
+                        <label for="con">Country :</label>
+                    </td>
+                    <td>
+                       <select id="con" name="country">
+                       <option>India</option>
+                       <option>South Korea</option>
+                       <option>USA</option>
+                        </select>
+                    </td>
+                </tr>
+                
+                <tr>
+                <td><button type="reset">Cancel</button> </td>
+                <td><button>Submit</button> </td>
+                </tr>
+</table>
+
+</form>
+<br>
+<a href="Home.html"><button>Home</button> </a>
+</body>
+</html>
