@@ -63,7 +63,7 @@ public class FetchById extends GenericServlet {
 //		res.getWriter().print("</table>"
 //				+ "<br>"
 //				+ "<a href='Home.html'><button>Home</button></a>"
-//				+ "</body></html>");s
+//				+ "</body></html>");
         	// req.setAttribute("student", student);
         	 
         	 List<Student> list=new ArrayList();
